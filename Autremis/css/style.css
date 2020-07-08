@@ -296,7 +296,7 @@ p a:hover {
 	margin: 0;
 	padding: 33px 0 0;
 }
-#body div > .services-list li {
+#body div > .services-list li iframe {
 	border: 1px solid  #0ba39c;
 	display: block;
 	padding: 4px;
@@ -305,7 +305,14 @@ p a:hover {
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
-
+}
+body #contacts {
+	border: 0;
+	outline: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
 }
 #footer {
 	background: #252525;
