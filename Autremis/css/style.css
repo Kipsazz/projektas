@@ -1,4 +1,5 @@
 body {
+	background: #fff;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
@@ -63,7 +64,8 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-#header ul li a :hover, #header ul li.selected a {
+#header ul li a:hover, #header ul li.selected a {
+	transition: 0.4s ease;
 	color: #0ba39c;
 }
 #body {
@@ -196,6 +198,7 @@ p a:hover {
 	color: #252525;
 	background: #fff;
 	border: 2px solid #252525;
+	transition: 0.4s ease-in-out;
 }
 #body #featured {
 	margin: 0 0 13px;
@@ -216,7 +219,7 @@ p a:hover {
 	margin-top: -171px;
 	padding: 0 0 0 470px;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	text-align: left;
 	width: 490px;
 }
@@ -296,23 +299,26 @@ p a:hover {
 	margin: 0;
 	padding: 33px 0 0;
 }
-#body div > .services-list li iframe {
-	border: 1px solid  #0ba39c;
-	display: block;
-	padding: 4px;
-	background: #ebe6ff;
-	font-family: 'Abril Fatface', cursive;
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-}
 body #contacts {
 	border: 0;
 	outline: none;
 	display: block;
 	width: 100%;
 	text-align: center;
+}
+#body div .services-list li {
+	border: 1px solid  #0ba39c;
+	display: block;
+	padding: 4px;
+	background: #ebe6ff;
+	font-family: 'Abril Fatface', bold;
+	text-align: center;
 	text-decoration: none;
+	font-size: 22px;
+}
+	body #contacts ul {
+	text-decoration: none;
+	list-style: none;
 }
 #footer {
 	background: #252525;
