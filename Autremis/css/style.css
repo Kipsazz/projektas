@@ -25,7 +25,7 @@ p a:hover {
 	color: #898989;
 }
 #header {
-	margin: 0 auto;
+	margin: auto;
 	padding: 5px 0 30px;
 	text-align: center;
 	width: 960px;
@@ -288,7 +288,7 @@ p a:hover {
 	display: block;
 	margin: 0;
 	padding: 0;
-	opacity: .8;
+	opacity: 0.8;
 	transition: 0.5s ease-in-out;
 }
 #body > ul li a:hover img {
@@ -301,10 +301,13 @@ p a:hover {
 }
 body #contacts {
 	border: 0;
-	outline: none;
 	display: block;
 	width: 100%;
 	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+
 }
 #body div .services-list li {
 	border: 1px solid  #0ba39c;
@@ -316,9 +319,66 @@ body #contacts {
 	text-decoration: none;
 	font-size: 22px;
 }
-	body #contacts ul {
+body #contacts h1 {
+	color: #ededed;
+	font-family: "Arial Black", Georgija, serif;
+	font-size: 35px;
+	font-weight: normal;
+	margin: auto;
+	padding: 0;
+	text-transform: uppercase;
+}
+body #contacts h1 span{
+	background: #252525;
+	display: inline-block;
+	padding: 12px 28px 12px;
+	letter-spacing: 5px;
+	border-radius: 10px;
+}
+body #contacts div ul > li {
+	margin-left: -40px
+}
+ body #contacts div ul li iframe {
+	display: block;
+	height: 300px;
+	width: 800px;
+	margin: auto;
+	border: 5px solid #0ba39c;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+body #contacts div li{
+	margin: auto;
+	font-size: 20px;
+	list-style-type: none;
+}
+body #contacts div li h3 span {
+	background-color: #0ba39c;
+	padding: 2px 6px;
+	color:#fcfcfc;
+	border-radius: 10px;
+}
+body #contacts div li h4 span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fcfcfc;
+	background-color: #1a1a1a;
+	padding: 4px 6px;
+	border-radius: 10px;
+}
+body #contacts div li a{
 	text-decoration: none;
-	list-style: none;
+	font-size: 25px;
+	background-color: darkgray;
+	color: white;
+	letter-spacing: 1px;
+	padding: 5px;
+	border-radius: 10px;
+}
+body #contacts div li a:hover {
+	font-size: 30px;
+	color: #0ba39c;
+	transition: 0.6s ease-in-out;
 }
 #footer {
 	background: #252525;
@@ -336,5 +396,12 @@ body #contacts {
 	float: left;
 	line-height: 44px;
 	margin: 0 0 0 10px;
+	padding: 0;
+}
+#footer div span{
+	color: #fff;
+	float: left;
+	line-height: 8px;
+	margin: 0 0 0 30px;
 	padding: 0;
 }

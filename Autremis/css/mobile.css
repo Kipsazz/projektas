@@ -198,6 +198,14 @@ body {
 	height: 14px;
 	line-height: 14px;
 }
+body #contacts div ul > li {
+	margin-left: -40px
+}
+body #contacts div ul li iframe{
+	width: auto;
+	margin: auto;
+	box-sizing: border-box;
+}
 #footer {
 	padding: 10px 0 25px;
 }
