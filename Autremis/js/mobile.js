@@ -15,7 +15,7 @@ window.onload = function(){
 			document.getElementById('mobile-navigation').style.backgroundImage='url(images/mobile-close.png)';
 		}
 	};
-	var getElm = getNavi.getElementsByTagName("LI");
+	var getElm = getNavi.getElementsByTagName("li");
 	for(var i=0;i<getElm.length;i++){
 		if(getElm[i].children.length>1){
 			var smenu = document.createElement("span");

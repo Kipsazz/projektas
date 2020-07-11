@@ -299,16 +299,6 @@ p a:hover {
 	margin: 0;
 	padding: 33px 0 0;
 }
-body #contacts {
-	border: 0;
-	display: block;
-	width: 100%;
-	text-align: center;
-	list-style-type: none;
-	text-decoration: none;
-	box-sizing: border-box;
-
-}
 #body div .services-list li {
 	border: 1px solid  #0ba39c;
 	display: block;
@@ -318,6 +308,16 @@ body #contacts {
 	text-align: center;
 	text-decoration: none;
 	font-size: 22px;
+}
+body #contacts {
+	border: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+
 }
 body #contacts h1 {
 	color: #ededed;
