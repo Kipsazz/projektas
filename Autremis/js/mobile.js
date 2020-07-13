@@ -16,8 +16,8 @@ window.onload = function(){
 		}
 	};
 	var getElm = getNavi.getElementsByTagName("li");
-	for(var i=0;i<getElm.length;i++){
-		if(getElm[i].children.length>1){
+	for(var i = 0; i < getElm.length; i++){
+		if(getElm[i].children.length > 1){
 			var smenu = document.createElement("span");
 			smenu.setAttribute("class","mobile-submenu");
 			smenu.setAttribute("OnClick","submenu("+i+")");
