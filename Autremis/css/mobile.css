@@ -1,5 +1,4 @@
 @media screen and (max-width : 600px) {
-
 body {
 	min-width: 0;
 }
@@ -197,6 +196,29 @@ body {
 #body div ul li div a.more:hover {
 	height: 14px;
 	line-height: 14px;
+}
+	/* gallery*/
+#gallery {
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: auto;
+	grid-gap: 10px;
+	grid-template-areas:
+		"img1"
+		"img2"
+		"img3"
+		"img4"
+		"img5"
+		"img6"
+		"img7"
+		"img8"
+		"img9"
+		"img10"
+		"img11"
+		"img12"
+		"img13"
+		"img14"
+		"img15";
 }
 body #contacts div ul > li {
 	margin-left: -40px
