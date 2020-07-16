@@ -25,7 +25,7 @@ if (galleryImages) {
 
 			newImg.onload = function () {
 				var imgWidth = this.width;
-				var calcImgToEdge = ((windowWidth - imgWidth) / 2) - 50;
+				var calcImgToEdge = ((windowWidth - imgWidth) / 2) - 42;
 
 				var newNextBtn = document.createElement("a");
 				var btnNextText = document.createTextNode(">>")
@@ -82,7 +82,7 @@ function changeImg (changeDir) {
 
 	newImg.onload = function () {
 		var imgWidth = this.width;
-		var calcImgToEdge = ((windowWidth - imgWidth) / 2) - 50;
+		var calcImgToEdge = ((windowWidth - imgWidth) / 2) - 42;
 
 		var nextBtn = document.querySelector(".img-btn-next");
 		nextBtn.style.cssText = "right: " + calcImgToEdge + "px;";
