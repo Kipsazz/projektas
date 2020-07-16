@@ -1,3 +1,4 @@
+/* TODO minimize code to declaration, actions, output. */
 var galleryImages = document.querySelectorAll(".gallery-img");
 var getLatestOpenedImg;
 var windowWidth = window.innerWidth;

@@ -19,7 +19,7 @@
 	background-position: center;
 	cursor: pointer;
 }
-/* images */
+/* images  */
 #gallery .img1 {
 	grid-area: img1;
 	background-image: url("../images/small/galerija/img1.jpg");
