@@ -1,3 +1,4 @@
+/* TODO split logo and menu to one css, */
 body {
 	background: #fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +25,7 @@ p a {
 p a:hover {
 	color: #898989;
 }
+/* headeer and logo*/
 #header {
 	margin: auto;
 	padding: 5px 0 30px;
@@ -43,6 +45,7 @@ p a:hover {
 	padding: 0;
 	border-radius: 15px;
 }
+/* meniu */
 #header ul {
 	margin: 0;
 	padding: 30px 0 0;
@@ -68,6 +71,7 @@ p a:hover {
 	transition: 0.4s ease;
 	color: #0ba39c;
 }
+/* pasl, patar, sub pages */
 #body {
 	margin: 0;
 	padding: 0 0 30px;
@@ -131,6 +135,7 @@ p a:hover {
 	margin: 0 0 20px;
 	line-height: 18px;
 }
+/* pasl, patar, main */
 #body div ul {
 	margin: 0;
 	padding: 24px 10px 0;
@@ -200,6 +205,7 @@ p a:hover {
 	border: 2px solid #252525;
 	transition: 0.2s ease-in-out;
 }
+/* index page*/
 #body #featured {
 	margin: 0 0 13px;
 	padding: 0;
@@ -259,10 +265,11 @@ p a:hover {
 #body #featured div a:hover {
 	background: #1fc3bc;
 }
+/* gallery */
 .wrapper-gallery {
 	margin: 0 20vw;
 }
-/*index bottom images*/
+/* index page bottom images*/
 #body > ul {
 	margin: 0 auto;
 	overflow: hidden;
@@ -304,7 +311,7 @@ p a:hover {
 	margin: 0;
 	padding: 33px 0 0;
 }
-/*service list*/
+/* paslaugos sub page service list*/
 #body div .services-list li {
 	border: 1px solid  #0ba39c;
 	display: block;
@@ -315,7 +322,7 @@ p a:hover {
 	text-decoration: none;
 	font-size: 22px;
 }
-/*contacts*/
+/*contacts page*/
 body #contacts {
 	border: 0;
 	display: block;
